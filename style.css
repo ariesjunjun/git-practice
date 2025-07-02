@@ -45,6 +45,10 @@ footer {
     margin-top: 60px;                /* 上との間に60pxの空白 */
 }
 
+.youtube {
+    justify-content: center;
+}
+
 /* 画面幅が500px以下のスマホ・小画面用のスタイル */
 @media (max-width: 500px) {
     main > div {
