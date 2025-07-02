@@ -32,6 +32,10 @@ img {
     border-radius: 8px;             /* 角を丸くする（半径8px） */
 }
 
+main > div:nth-child(2) {
+    flex-direction: row-reverse;
+}
+
 /* フッターのスタイル */
 footer {
     background-color: black;         /* 背景色を黒に設定 */
@@ -46,5 +50,9 @@ footer {
     main > div {
         flex-direction: column;      /* 横並び（row）から縦並び（column）に切り替える */
         align-items: center;         /* 中央揃えにする（子要素が縦に積まれるので中央に寄せる） */
+    }
+
+    main > div:nth-child(2) {
+        flex-direction: row-reverse;
     }
 }
